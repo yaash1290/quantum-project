@@ -1,0 +1,149 @@
+.nav_main{
+    background-color: transparent !important;
+}
+
+
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: right;
+  }
+
+
+.nav_head a {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(81, 51, 231);
+    font-weight: 500;
+}
+
+.home-container{
+    width: 100%;
+    display: flex;
+}
+
+.home{
+    margin-top: 100px;
+    margin-left: 5%;
+    width: 48%;
+}
+.home p{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.heading-1{
+    color: rgb(81, 51, 231);
+}
+.heading-2{
+    color:  rgb(237, 155, 101);
+}
+
+.btn-form{
+    margin-top: 15px;
+}
+
+.btn-form button{
+    border: 1px solid;
+    margin-right: 10px;
+    height: 35px;
+    border-color: rgb(81, 51, 231);
+    border-radius: 5px;
+}
+
+.btn-1{
+    background-color: rgb(81, 51, 231);
+    color: white;
+}
+
+.btn-2{
+    background-color: transparent;
+    color:rgb(81, 51, 231) ;
+}
+
+.home-img{
+    width: 500px;
+    height: 540px;
+}
+
+.testimonial-imgDiv{
+    background-color: rgb(81, 51, 231);
+    display: flex;
+    justify-content: center;
+}
+.testimonial-img{
+   
+    width: 200px;
+    height: 200px;
+  border-radius: 100px;
+}
+
+
+
+.contact-container{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    display: flex;
+}
+.contact-heading{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.contact-img{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.contact-details{
+    padding-left: 30px;
+}
+
+.contact-details label, input{
+    width: 70%;
+    margin-top: 10px;
+}
+
+.contact-textarea{
+    height: 110px;
+}
+
+.contact-btn{
+    border: 1px solid;
+    margin-right: 10px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(81, 51, 231);
+    color: white;
+    margin-top: 10px;
+}
+
+.footer-main{
+    background-color: rgb(97, 72, 219) ;
+    color: white;
+}
+
+
+
+.footer-main a{
+    color: white;
+}
+
+.footer-col-1{
+    width: 280px;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+.footer-attribute{
+    font-weight: 700;
+}
+
+.footer-col-2{
+    margin-left: 20px;
+    text-align: center;
+    
+}
