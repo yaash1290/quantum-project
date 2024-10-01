@@ -70,6 +70,26 @@
     background-color: rgb(81, 51, 231);
     display: flex;
     justify-content: center;
+    
+}
+
+.testimonial-box{
+    width: 90% !important;
+    margin-top: 100px;
+   margin-bottom: 100px;
+   margin-left: 30px;
+   
+}
+
+.testimonial-heading{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 30%;
+}
+.testimonial-container{
+    background-color: white !important;
+    width: 100%;
 }
 .testimonial-img{
    

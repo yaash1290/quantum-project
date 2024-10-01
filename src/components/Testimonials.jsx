@@ -20,14 +20,16 @@ const Testimonial = ()=>{
 
     return(
         <>
-        <div className="album py-5 bg-body-tertiary">
-    <div className="container">
+        <div className="album py-5 bg-body-tertiary testimonial-container">
+    <div className="container ">
 
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div className="col">
+      <div className="testimonial-heading"><p>Testimonials</p></div>
+        <div className="col testimonial-box">
+        
         <Slider {...settings}>
           {data.map((d) => (
-            <div className="card shadow-sm">
+            <div className="card shadow-sm testimonial-box-inside">
                 <div className="testimonial-imgDiv">
                     <img className="testimonial-img" width="100%" height="225" src={d.img} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
                 </div>
