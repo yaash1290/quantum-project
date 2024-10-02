@@ -7,7 +7,7 @@
       
 .nav_bar {
     display: flex;
-    min-width: 500px;
+    min-width: 100px;
     justify-content: right;
   }
 
