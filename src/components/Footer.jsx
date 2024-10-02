@@ -1,54 +1,126 @@
-import react from "react"
+import React from "react";
+// Import the CSS file for custom styles
 
-const Footer = ()=>{
-    return(
-        <>
-        <div class="container footer-main">
-  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top footer-2">
+const Footer = () => {
+  return (
+    <>
+      <div className="container-fluid footer-main ">
+        <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 footer-2">
+          {/* Contact Us Section */}
+          <div className="col mb-3 footer-col text-center">
+            {" "}
+            {/* Added text-center class */}
+            <h5>CONTACT US</h5>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  <span className="footer-attribute">E-mail</span>
+                  <br />
+                  <span>contact@JILLIONTECHNOLOGIES.com</span>
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  <span className="footer-attribute">Phone</span>
+                  <br />
+                  <span>123456789</span>
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  <span className="footer-attribute">Address</span>
+                  <br />
+                  <span>C-250, Sector-63, Noida, UP-201301</span>
+                </a>
+              </li>
+            </ul>
+          </div>
 
-    
+          {/* Company Section */}
+          <div className="col mb-3 footer-col text-center">
+            {" "}
+            {/* Added text-center class */}
+            <h5>COMPANY</h5>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  About Us
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  Services
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  Portfolio
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  Development Process
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  Career
+                </a>
+              </li>
+            </ul>
+          </div>
 
-    <div class="col mb-3 footer-col-1">
-      <h5>CONTACT US</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span className="footer-attribute">E mail</span><br/><span>contact@JILLIONTECHNOLOGIES.com</span></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span className="footer-attribute">Phone</span><br/><span>123456789</span></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span className="footer-attribute">Address</span><br/><span>C-250, Sector-63, Noida, UP-201301</span></a></li>
-      </ul>
-    </div>
+          {/* Service Section */}
+          <div className="col mb-3 footer-col text-center">
+            {" "}
+            {/* Added text-center class */}
+            <h5>SERVICE</h5>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  Website Development
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  Mobile App Development
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  E-commerce Development
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  Customer Software Development
+                </a>
+              </li>
+            </ul>
+          </div>
 
-    <div class="col mb-3 footer-col-2">
-      <h5>COMPANY</h5>
-      <ul class="nav flex-column">
-      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>About Us</span></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>Services</span></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>Portfolio</span></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>Development Process</span></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>Career</span></a></li>
-      </ul>
-    </div>
-
-    <div class="col mb-3 footer-col-1">
-      <h5>SERVICE</h5>
-      <ul class="nav flex-column">
-      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>Website Development</span></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>Mobile App Development</span></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>E-commerce Development</span></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>Customer Software Development</span></a></li>
-      </ul>
-    </div>
-
-    <div class="col mb-3 footer-col-2">
-      <h5>SUPPORT</h5>
-      <ul class="nav flex-column">        
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>Contact</span></a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><span>Term & policy</span></a></li>
-      </ul>
-    </div>
-  </footer>
-</div>
-        </>
-    )
-}
+          {/* Support Section */}
+          <div className="col mb-3 footer-col text-center">
+            {" "}
+            {/* Added text-center class */}
+            <h5>SUPPORT</h5>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  Contact
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0">
+                  Term & Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </>
+  );
+};
 
 export default Footer;
