@@ -13,25 +13,23 @@ const Testimonial = ()=>{
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
-        slidesToShow: 3,
+        speed: 900,
+        slidesToShow: 1,
         slidesToScroll: 1
       };
 
     return(
         <>
-        <div className="album py-5 bg-body-tertiary testimonial-container">
-    <div className="container ">
+        <div className="album py-5 bg-body-tertiary" style={{width:"100%" }} id="testimonials">
+    <div className="container" style={{width:"100%"}}>
 
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-      <div className="testimonial-heading"><p>Testimonials</p></div>
-        <div className="col testimonial-box">
-        
+      <div className="row" style={{width:"100%"}}>
+        <div className="col">
         <Slider {...settings}>
           {data.map((d) => (
-            <div className="card shadow-sm testimonial-box-inside">
+            <div className="card " >
                 <div className="testimonial-imgDiv">
-                    <img className="testimonial-img" width="100%" height="225" src={d.img} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                    <img className="testimonial-img" width="100%" height="400px" src={d.img} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
                 </div>
             <div className="card-body">
               <p className="card-text">{d.review}</p>

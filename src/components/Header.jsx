@@ -13,7 +13,7 @@ const Header = ()=>{
     <div className="collapse navbar-collapse nav_bar" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="#">Home</a>
+          <a className="nav-link " aria-current="page" href="Home">Home</a>
         </li>
         <li className="nav-item">
           <a className="nav-link " aria-current="page" href="#">Features</a>
@@ -22,10 +22,10 @@ const Header = ()=>{
           <a className="nav-link " aria-current="page" href="#">Products</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="#">Testimonials</a>
+          <a className="nav-link " aria-current="page" href="#Testimonial">Testimonials</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="#">Contact Us</a>
+          <a className="nav-link " aria-current="page" href="#Contact">Contact Us</a>
         </li>
       </ul>
     </div>
